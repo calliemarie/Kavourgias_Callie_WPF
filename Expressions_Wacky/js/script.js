@@ -9,6 +9,6 @@ var fianceGuest = parseInt(prompt("How many people does your fiance want invite 
 var totalBrideGuest = brideGuest[0] + brideGuest[1] + brideGuest[2];
 
 var guestList = totalBrideGuest + momGuest + fianceGuest;
-var tables = guestList/8;
+var tables = Math.round(guestList/8);
 
 console.log("Good grief! You're inviting " + guestList + " people to your wedding?! You'll need " + tables + " tables!");
