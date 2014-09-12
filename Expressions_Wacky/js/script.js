@@ -10,4 +10,4 @@ var totalBrideGuest = guests[0] + guests[1] + guests[2];
 
 var guestList = totalBrideGuest + momGuest + fianceGuest;
 
-console.log(guestList);
+console.log("Good Grief! You're inviting " + guestList + " people to your wedding?!" );
